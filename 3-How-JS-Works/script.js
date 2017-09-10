@@ -24,43 +24,43 @@
 // First scoping example
 
 
-var a = 'Hello!';
-first();
+// var a = 'Hello!';
+// first();
 
-function first() {
-    var b = 'Hi!';
-    second();
+// function first() {
+//     var b = 'Hi!';
+//     second();
 
-    function second() {
-        var c = 'Hey!';
-        console.log(a + b + c);
-    }
-}
+//     function second() {
+//         var c = 'Hey!';
+//         console.log(a + b + c);
+//     }
+// }
 
 
 
 
 // Example to show the differece between execution stack and scope chain
 
-/*
-var a = 'Hello!';
-first();
 
-function first() {
-    var b = 'Hi!';
-    second();
+// var a = 'Hello!';
+// first();
 
-    function second() {
-        var c = 'Hey!';
-        third()
-    }
-}
+// function first() {
+//     var b = 'Hi!';
+//     second();
 
-function third() {
-    var d = 'John';
-    console.log(a + b + c + d);
-}
-*/
+//     function second() {
+//         var c = 'Hey!';
+//         third()
+//     }
+// }
+
+// function third() {
+//     var d = 'John';
+//     console.log(a + b + c + d);
+// }
+
 
 
 
@@ -71,7 +71,14 @@ function third() {
 
 
 
-
+// var foo = 1; 
+// function bar() { 
+//     if (!foo) { 
+//         var foo = 10; 
+//     } 
+//     console.log(foo); 
+// } 
+// bar();
 
 
 
